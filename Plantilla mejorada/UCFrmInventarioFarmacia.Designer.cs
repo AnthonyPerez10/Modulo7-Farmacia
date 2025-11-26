@@ -28,24 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblMedicamentos = new System.Windows.Forms.Label();
-            this.lblCodigoInterno = new System.Windows.Forms.Label();
-            this.lblPresentacion = new System.Windows.Forms.Label();
-            this.lblUnidadMedida = new System.Windows.Forms.Label();
-            this.lblExistenciaActual = new System.Windows.Forms.Label();
-            this.lblFechaVencimiento = new System.Windows.Forms.Label();
-            this.lblLote = new System.Windows.Forms.Label();
-            this.lblProveedor = new System.Windows.Forms.Label();
-            this.lblEstado = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.lblTitulo = new System.Windows.Forms.Label();
-            this.cmbMedicamentos = new System.Windows.Forms.ComboBox();
-            this.txtCodigoInterno = new System.Windows.Forms.TextBox();
-            this.cmbUnidadMedida = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.nudExitenciaActual = new System.Windows.Forms.NumericUpDown();
-            this.lblExistenciaMinima = new System.Windows.Forms.Label();
             this.nudExistenciaMinima = new System.Windows.Forms.NumericUpDown();
-            this.cmbPresentacion = new System.Windows.Forms.ComboBox();
             this.dtpFechaVencimiento = new System.Windows.Forms.DateTimePicker();
             this.txtLote = new System.Windows.Forms.TextBox();
             this.cmbProveedor = new System.Windows.Forms.ComboBox();
@@ -53,191 +38,78 @@
             this.btnAgregar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnActualizar = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.dgwListaActual = new System.Windows.Forms.DataGridView();
-            this.panel1.SuspendLayout();
+            this.pnlContenedorTitulo = new System.Windows.Forms.Panel();
+            this.lblTitulo = new System.Windows.Forms.Label();
+            this.LineaDivisora = new System.Windows.Forms.Panel();
+            this.btnDispensación = new System.Windows.Forms.Button();
+            this.btnInventario = new System.Windows.Forms.Button();
+            this.PanelDetalles = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.PanelTabla = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Presentacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.StockActual = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.StockMin = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Estado = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.nudExitenciaActual)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudExistenciaMinima)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgwListaActual)).BeginInit();
+            this.pnlContenedorTitulo.SuspendLayout();
+            this.PanelDetalles.SuspendLayout();
+            this.PanelTabla.SuspendLayout();
             this.SuspendLayout();
             // 
-            // lblMedicamentos
+            // button1
             // 
-            this.lblMedicamentos.AutoSize = true;
-            this.lblMedicamentos.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMedicamentos.Location = new System.Drawing.Point(45, 155);
-            this.lblMedicamentos.Name = "lblMedicamentos";
-            this.lblMedicamentos.Size = new System.Drawing.Size(114, 20);
-            this.lblMedicamentos.TabIndex = 1;
-            this.lblMedicamentos.Text = "Medicamentos: ";
-            // 
-            // lblCodigoInterno
-            // 
-            this.lblCodigoInterno.AutoSize = true;
-            this.lblCodigoInterno.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCodigoInterno.Location = new System.Drawing.Point(45, 200);
-            this.lblCodigoInterno.Name = "lblCodigoInterno";
-            this.lblCodigoInterno.Size = new System.Drawing.Size(116, 20);
-            this.lblCodigoInterno.TabIndex = 2;
-            this.lblCodigoInterno.Text = "Codigo Interno: ";
-            // 
-            // lblPresentacion
-            // 
-            this.lblPresentacion.AutoSize = true;
-            this.lblPresentacion.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPresentacion.Location = new System.Drawing.Point(45, 241);
-            this.lblPresentacion.Name = "lblPresentacion";
-            this.lblPresentacion.Size = new System.Drawing.Size(100, 20);
-            this.lblPresentacion.TabIndex = 3;
-            this.lblPresentacion.Text = "Presentación: ";
-            // 
-            // lblUnidadMedida
-            // 
-            this.lblUnidadMedida.AutoSize = true;
-            this.lblUnidadMedida.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUnidadMedida.Location = new System.Drawing.Point(45, 278);
-            this.lblUnidadMedida.Name = "lblUnidadMedida";
-            this.lblUnidadMedida.Size = new System.Drawing.Size(140, 20);
-            this.lblUnidadMedida.TabIndex = 4;
-            this.lblUnidadMedida.Text = "Unidad de medida: ";
-            // 
-            // lblExistenciaActual
-            // 
-            this.lblExistenciaActual.AutoSize = true;
-            this.lblExistenciaActual.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblExistenciaActual.Location = new System.Drawing.Point(45, 319);
-            this.lblExistenciaActual.Name = "lblExistenciaActual";
-            this.lblExistenciaActual.Size = new System.Drawing.Size(127, 20);
-            this.lblExistenciaActual.TabIndex = 5;
-            this.lblExistenciaActual.Text = "Existencia Actual: ";
-            // 
-            // lblFechaVencimiento
-            // 
-            this.lblFechaVencimiento.AutoSize = true;
-            this.lblFechaVencimiento.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFechaVencimiento.Location = new System.Drawing.Point(45, 400);
-            this.lblFechaVencimiento.Name = "lblFechaVencimiento";
-            this.lblFechaVencimiento.Size = new System.Drawing.Size(140, 20);
-            this.lblFechaVencimiento.TabIndex = 6;
-            this.lblFechaVencimiento.Text = "Fecha Vencimiento: ";
-            // 
-            // lblLote
-            // 
-            this.lblLote.AutoSize = true;
-            this.lblLote.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLote.Location = new System.Drawing.Point(45, 437);
-            this.lblLote.Name = "lblLote";
-            this.lblLote.Size = new System.Drawing.Size(45, 20);
-            this.lblLote.TabIndex = 7;
-            this.lblLote.Text = "Lote: ";
-            // 
-            // lblProveedor
-            // 
-            this.lblProveedor.AutoSize = true;
-            this.lblProveedor.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProveedor.Location = new System.Drawing.Point(45, 477);
-            this.lblProveedor.Name = "lblProveedor";
-            this.lblProveedor.Size = new System.Drawing.Size(84, 20);
-            this.lblProveedor.TabIndex = 8;
-            this.lblProveedor.Text = "Proveedor: ";
-            // 
-            // lblEstado
-            // 
-            this.lblEstado.AutoSize = true;
-            this.lblEstado.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEstado.Location = new System.Drawing.Point(45, 519);
-            this.lblEstado.Name = "lblEstado";
-            this.lblEstado.Size = new System.Drawing.Size(61, 20);
-            this.lblEstado.TabIndex = 9;
-            this.lblEstado.Text = "Estado: ";
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(39)))), ((int)(((byte)(89)))));
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.lblTitulo);
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(780, 93);
-            this.panel1.TabIndex = 10;
-            // 
-            // lblTitulo
-            // 
-            this.lblTitulo.AutoSize = true;
-            this.lblTitulo.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblTitulo.Location = new System.Drawing.Point(275, 30);
-            this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(287, 30);
-            this.lblTitulo.TabIndex = 0;
-            this.lblTitulo.Text = "Inventario de Medicamentos";
-            // 
-            // cmbMedicamentos
-            // 
-            this.cmbMedicamentos.FormattingEnabled = true;
-            this.cmbMedicamentos.Location = new System.Drawing.Point(165, 155);
-            this.cmbMedicamentos.Name = "cmbMedicamentos";
-            this.cmbMedicamentos.Size = new System.Drawing.Size(215, 21);
-            this.cmbMedicamentos.TabIndex = 11;
-            // 
-            // txtCodigoInterno
-            // 
-            this.txtCodigoInterno.Location = new System.Drawing.Point(165, 202);
-            this.txtCodigoInterno.Name = "txtCodigoInterno";
-            this.txtCodigoInterno.Size = new System.Drawing.Size(215, 20);
-            this.txtCodigoInterno.TabIndex = 12;
-            // 
-            // cmbUnidadMedida
-            // 
-            this.cmbUnidadMedida.FormattingEnabled = true;
-            this.cmbUnidadMedida.Location = new System.Drawing.Point(180, 280);
-            this.cmbUnidadMedida.Name = "cmbUnidadMedida";
-            this.cmbUnidadMedida.Size = new System.Drawing.Size(200, 21);
-            this.cmbUnidadMedida.TabIndex = 13;
+            this.button1.BackColor = System.Drawing.Color.Gold;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(405, 9);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(82, 26);
+            this.button1.TabIndex = 25;
+            this.button1.Text = "Ver stock bajo";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // nudExitenciaActual
             // 
-            this.nudExitenciaActual.Location = new System.Drawing.Point(180, 322);
+            this.nudExitenciaActual.Location = new System.Drawing.Point(20, 232);
             this.nudExitenciaActual.Name = "nudExitenciaActual";
             this.nudExitenciaActual.Size = new System.Drawing.Size(120, 20);
             this.nudExitenciaActual.TabIndex = 14;
             // 
-            // lblExistenciaMinima
-            // 
-            this.lblExistenciaMinima.AutoSize = true;
-            this.lblExistenciaMinima.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblExistenciaMinima.Location = new System.Drawing.Point(45, 360);
-            this.lblExistenciaMinima.Name = "lblExistenciaMinima";
-            this.lblExistenciaMinima.Size = new System.Drawing.Size(135, 20);
-            this.lblExistenciaMinima.TabIndex = 15;
-            this.lblExistenciaMinima.Text = "Existencia Minima: ";
-            // 
             // nudExistenciaMinima
             // 
-            this.nudExistenciaMinima.Location = new System.Drawing.Point(180, 360);
+            this.nudExistenciaMinima.Location = new System.Drawing.Point(177, 232);
             this.nudExistenciaMinima.Name = "nudExistenciaMinima";
             this.nudExistenciaMinima.Size = new System.Drawing.Size(120, 20);
             this.nudExistenciaMinima.TabIndex = 16;
             // 
-            // cmbPresentacion
-            // 
-            this.cmbPresentacion.FormattingEnabled = true;
-            this.cmbPresentacion.Location = new System.Drawing.Point(165, 243);
-            this.cmbPresentacion.Name = "cmbPresentacion";
-            this.cmbPresentacion.Size = new System.Drawing.Size(215, 21);
-            this.cmbPresentacion.TabIndex = 17;
-            // 
             // dtpFechaVencimiento
             // 
-            this.dtpFechaVencimiento.Location = new System.Drawing.Point(180, 399);
+            this.dtpFechaVencimiento.Location = new System.Drawing.Point(20, 288);
             this.dtpFechaVencimiento.Name = "dtpFechaVencimiento";
             this.dtpFechaVencimiento.Size = new System.Drawing.Size(203, 20);
             this.dtpFechaVencimiento.TabIndex = 18;
             // 
             // txtLote
             // 
-            this.txtLote.Location = new System.Drawing.Point(168, 439);
+            this.txtLote.Location = new System.Drawing.Point(20, 344);
             this.txtLote.Name = "txtLote";
             this.txtLote.Size = new System.Drawing.Size(215, 20);
             this.txtLote.TabIndex = 19;
@@ -245,26 +117,26 @@
             // cmbProveedor
             // 
             this.cmbProveedor.FormattingEnabled = true;
-            this.cmbProveedor.Location = new System.Drawing.Point(168, 479);
+            this.cmbProveedor.Location = new System.Drawing.Point(20, 400);
             this.cmbProveedor.Name = "cmbProveedor";
-            this.cmbProveedor.Size = new System.Drawing.Size(215, 21);
+            this.cmbProveedor.Size = new System.Drawing.Size(120, 21);
             this.cmbProveedor.TabIndex = 20;
             // 
             // cmbEstado
             // 
             this.cmbEstado.FormattingEnabled = true;
-            this.cmbEstado.Location = new System.Drawing.Point(168, 518);
+            this.cmbEstado.Location = new System.Drawing.Point(174, 400);
             this.cmbEstado.Name = "cmbEstado";
-            this.cmbEstado.Size = new System.Drawing.Size(215, 21);
+            this.cmbEstado.Size = new System.Drawing.Size(123, 21);
             this.cmbEstado.TabIndex = 21;
             // 
             // btnAgregar
             // 
             this.btnAgregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(167)))), ((int)(((byte)(69)))));
-            this.btnAgregar.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.Location = new System.Drawing.Point(49, 113);
+            this.btnAgregar.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregar.Location = new System.Drawing.Point(46, 445);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(96, 27);
+            this.btnAgregar.Size = new System.Drawing.Size(94, 27);
             this.btnAgregar.TabIndex = 22;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = false;
@@ -272,9 +144,9 @@
             // btnEliminar
             // 
             this.btnEliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(53)))), ((int)(((byte)(69)))));
-            this.btnEliminar.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminar.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnEliminar.Location = new System.Drawing.Point(165, 113);
+            this.btnEliminar.Location = new System.Drawing.Point(364, 570);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(96, 27);
             this.btnEliminar.TabIndex = 23;
@@ -284,105 +156,339 @@
             // btnActualizar
             // 
             this.btnActualizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(162)))), ((int)(((byte)(184)))));
-            this.btnActualizar.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnActualizar.Location = new System.Drawing.Point(287, 113);
+            this.btnActualizar.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnActualizar.Location = new System.Drawing.Point(475, 570);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(96, 27);
             this.btnActualizar.TabIndex = 24;
             this.btnActualizar.Text = "Actualizar";
             this.btnActualizar.UseVisualStyleBackColor = false;
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(168)))), ((int)(((byte)(170)))));
-            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(49, 30);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(96, 30);
-            this.button1.TabIndex = 25;
-            this.button1.Text = "Ver Stock";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(448, 153);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 20);
-            this.label1.TabIndex = 25;
-            this.label1.Text = "Lista Actual ";
-            // 
             // dgwListaActual
             // 
             this.dgwListaActual.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgwListaActual.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgwListaActual.Location = new System.Drawing.Point(452, 187);
+            this.dgwListaActual.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Codigo,
+            this.Nombre,
+            this.Presentacion,
+            this.StockActual,
+            this.StockMin,
+            this.Estado});
+            this.dgwListaActual.Location = new System.Drawing.Point(20, 44);
             this.dgwListaActual.Name = "dgwListaActual";
-            this.dgwListaActual.Size = new System.Drawing.Size(316, 301);
+            this.dgwListaActual.Size = new System.Drawing.Size(467, 377);
             this.dgwListaActual.TabIndex = 26;
+            // 
+            // pnlContenedorTitulo
+            // 
+            this.pnlContenedorTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(39)))), ((int)(((byte)(89)))));
+            this.pnlContenedorTitulo.Controls.Add(this.lblTitulo);
+            this.pnlContenedorTitulo.Location = new System.Drawing.Point(0, 0);
+            this.pnlContenedorTitulo.Name = "pnlContenedorTitulo";
+            this.pnlContenedorTitulo.Size = new System.Drawing.Size(856, 60);
+            this.pnlContenedorTitulo.TabIndex = 27;
+            // 
+            // lblTitulo
+            // 
+            this.lblTitulo.AutoSize = true;
+            this.lblTitulo.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblTitulo.Location = new System.Drawing.Point(24, 13);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(244, 32);
+            this.lblTitulo.TabIndex = 0;
+            this.lblTitulo.Text = "Gestión de Farmacia";
+            // 
+            // LineaDivisora
+            // 
+            this.LineaDivisora.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(188)))), ((int)(((byte)(170)))));
+            this.LineaDivisora.Location = new System.Drawing.Point(0, 100);
+            this.LineaDivisora.Name = "LineaDivisora";
+            this.LineaDivisora.Size = new System.Drawing.Size(856, 1);
+            this.LineaDivisora.TabIndex = 28;
+            // 
+            // btnDispensación
+            // 
+            this.btnDispensación.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(154)))), ((int)(((byte)(217)))));
+            this.btnDispensación.FlatAppearance.BorderSize = 0;
+            this.btnDispensación.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDispensación.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDispensación.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnDispensación.Location = new System.Drawing.Point(19, 68);
+            this.btnDispensación.Name = "btnDispensación";
+            this.btnDispensación.Size = new System.Drawing.Size(116, 30);
+            this.btnDispensación.TabIndex = 29;
+            this.btnDispensación.Text = "Dispensación";
+            this.btnDispensación.UseVisualStyleBackColor = false;
+            // 
+            // btnInventario
+            // 
+            this.btnInventario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(154)))), ((int)(((byte)(217)))));
+            this.btnInventario.FlatAppearance.BorderSize = 0;
+            this.btnInventario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInventario.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInventario.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnInventario.Location = new System.Drawing.Point(130, 68);
+            this.btnInventario.Name = "btnInventario";
+            this.btnInventario.Size = new System.Drawing.Size(93, 26);
+            this.btnInventario.TabIndex = 30;
+            this.btnInventario.Text = "Inventario";
+            this.btnInventario.UseVisualStyleBackColor = false;
+            // 
+            // PanelDetalles
+            // 
+            this.PanelDetalles.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(200)))), ((int)(((byte)(242)))));
+            this.PanelDetalles.Controls.Add(this.button2);
+            this.PanelDetalles.Controls.Add(this.label11);
+            this.PanelDetalles.Controls.Add(this.label10);
+            this.PanelDetalles.Controls.Add(this.label9);
+            this.PanelDetalles.Controls.Add(this.label8);
+            this.PanelDetalles.Controls.Add(this.label7);
+            this.PanelDetalles.Controls.Add(this.comboBox2);
+            this.PanelDetalles.Controls.Add(this.label5);
+            this.PanelDetalles.Controls.Add(this.textBox2);
+            this.PanelDetalles.Controls.Add(this.label4);
+            this.PanelDetalles.Controls.Add(this.btnAgregar);
+            this.PanelDetalles.Controls.Add(this.label3);
+            this.PanelDetalles.Controls.Add(this.comboBox1);
+            this.PanelDetalles.Controls.Add(this.cmbEstado);
+            this.PanelDetalles.Controls.Add(this.label2);
+            this.PanelDetalles.Controls.Add(this.cmbProveedor);
+            this.PanelDetalles.Controls.Add(this.label6);
+            this.PanelDetalles.Controls.Add(this.txtLote);
+            this.PanelDetalles.Controls.Add(this.nudExitenciaActual);
+            this.PanelDetalles.Controls.Add(this.nudExistenciaMinima);
+            this.PanelDetalles.Controls.Add(this.dtpFechaVencimiento);
+            this.PanelDetalles.Location = new System.Drawing.Point(19, 107);
+            this.PanelDetalles.Name = "PanelDetalles";
+            this.PanelDetalles.Size = new System.Drawing.Size(319, 490);
+            this.PanelDetalles.TabIndex = 31;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(17, 210);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(84, 17);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Stock actual:";
+            // 
+            // textBox2
+            // 
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox2.Enabled = false;
+            this.textBox2.Location = new System.Drawing.Point(20, 120);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(277, 20);
+            this.textBox2.TabIndex = 6;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(17, 98);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(102, 17);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Codigo interno:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(17, 154);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(89, 17);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Presentación:";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(20, 64);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(277, 21);
+            this.comboBox1.TabIndex = 2;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(17, 41);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(170, 17);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Nombre del medicamento:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(16, 12);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(214, 21);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "Detalles del medicamento:";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(20, 176);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(277, 21);
+            this.comboBox2.TabIndex = 9;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(174, 210);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(94, 17);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "Stock minimo:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(17, 266);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(143, 17);
+            this.label8.TabIndex = 17;
+            this.label8.Text = "Fecha de vencimiento:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(22, 322);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(37, 17);
+            this.label9.TabIndex = 19;
+            this.label9.Text = "Lote:";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(17, 378);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(75, 17);
+            this.label10.TabIndex = 20;
+            this.label10.Text = "Proveedor:";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(171, 378);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(52, 17);
+            this.label11.TabIndex = 21;
+            this.label11.Text = "Estado:";
+            // 
+            // PanelTabla
+            // 
+            this.PanelTabla.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(200)))), ((int)(((byte)(242)))));
+            this.PanelTabla.Controls.Add(this.label1);
+            this.PanelTabla.Controls.Add(this.dgwListaActual);
+            this.PanelTabla.Controls.Add(this.button1);
+            this.PanelTabla.Location = new System.Drawing.Point(344, 107);
+            this.PanelTabla.Name = "PanelTabla";
+            this.PanelTabla.Size = new System.Drawing.Size(506, 442);
+            this.PanelTabla.TabIndex = 32;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(16, 11);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(151, 21);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Lista de inventario";
+            // 
+            // Codigo
+            // 
+            this.Codigo.HeaderText = "Código";
+            this.Codigo.Name = "Codigo";
+            this.Codigo.Width = 80;
+            // 
+            // Nombre
+            // 
+            this.Nombre.HeaderText = "Nombre";
+            this.Nombre.Name = "Nombre";
+            this.Nombre.Width = 110;
+            // 
+            // Presentacion
+            // 
+            this.Presentacion.HeaderText = "Presentación";
+            this.Presentacion.Name = "Presentacion";
+            this.Presentacion.Width = 90;
+            // 
+            // StockActual
+            // 
+            this.StockActual.HeaderText = "Stock actual";
+            this.StockActual.Name = "StockActual";
+            this.StockActual.Width = 42;
+            // 
+            // StockMin
+            // 
+            this.StockMin.HeaderText = "Stock minimo";
+            this.StockMin.Name = "StockMin";
+            this.StockMin.Width = 42;
+            // 
+            // Estado
+            // 
+            this.Estado.HeaderText = "Estado";
+            this.Estado.Name = "Estado";
+            this.Estado.Width = 60;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Silver;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(174, 445);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(94, 27);
+            this.button2.TabIndex = 23;
+            this.button2.Text = "Limpiar";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // UCFrmInventarioFarmacia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.dgwListaActual);
-            this.Controls.Add(this.label1);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(154)))), ((int)(((byte)(217)))));
+            this.Controls.Add(this.PanelTabla);
+            this.Controls.Add(this.PanelDetalles);
+            this.Controls.Add(this.btnInventario);
+            this.Controls.Add(this.btnDispensación);
+            this.Controls.Add(this.LineaDivisora);
+            this.Controls.Add(this.pnlContenedorTitulo);
             this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.btnEliminar);
-            this.Controls.Add(this.btnAgregar);
-            this.Controls.Add(this.cmbEstado);
-            this.Controls.Add(this.cmbProveedor);
-            this.Controls.Add(this.txtLote);
-            this.Controls.Add(this.dtpFechaVencimiento);
-            this.Controls.Add(this.cmbPresentacion);
-            this.Controls.Add(this.nudExistenciaMinima);
-            this.Controls.Add(this.lblExistenciaMinima);
-            this.Controls.Add(this.nudExitenciaActual);
-            this.Controls.Add(this.cmbUnidadMedida);
-            this.Controls.Add(this.txtCodigoInterno);
-            this.Controls.Add(this.cmbMedicamentos);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.lblEstado);
-            this.Controls.Add(this.lblProveedor);
-            this.Controls.Add(this.lblLote);
-            this.Controls.Add(this.lblFechaVencimiento);
-            this.Controls.Add(this.lblExistenciaActual);
-            this.Controls.Add(this.lblUnidadMedida);
-            this.Controls.Add(this.lblPresentacion);
-            this.Controls.Add(this.lblCodigoInterno);
-            this.Controls.Add(this.lblMedicamentos);
             this.Name = "UCFrmInventarioFarmacia";
-            this.Size = new System.Drawing.Size(780, 558);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.Size = new System.Drawing.Size(856, 609);
             ((System.ComponentModel.ISupportInitialize)(this.nudExitenciaActual)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudExistenciaMinima)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgwListaActual)).EndInit();
+            this.pnlContenedorTitulo.ResumeLayout(false);
+            this.pnlContenedorTitulo.PerformLayout();
+            this.PanelDetalles.ResumeLayout(false);
+            this.PanelDetalles.PerformLayout();
+            this.PanelTabla.ResumeLayout(false);
+            this.PanelTabla.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Label lblMedicamentos;
-        private System.Windows.Forms.Label lblCodigoInterno;
-        private System.Windows.Forms.Label lblPresentacion;
-        private System.Windows.Forms.Label lblUnidadMedida;
-        private System.Windows.Forms.Label lblExistenciaActual;
-        private System.Windows.Forms.Label lblFechaVencimiento;
-        private System.Windows.Forms.Label lblLote;
-        private System.Windows.Forms.Label lblProveedor;
-        private System.Windows.Forms.Label lblEstado;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label lblTitulo;
-        private System.Windows.Forms.ComboBox cmbMedicamentos;
-        private System.Windows.Forms.TextBox txtCodigoInterno;
-        private System.Windows.Forms.ComboBox cmbUnidadMedida;
         private System.Windows.Forms.NumericUpDown nudExitenciaActual;
-        private System.Windows.Forms.Label lblExistenciaMinima;
         private System.Windows.Forms.NumericUpDown nudExistenciaMinima;
-        private System.Windows.Forms.ComboBox cmbPresentacion;
         private System.Windows.Forms.DateTimePicker dtpFechaVencimiento;
         private System.Windows.Forms.TextBox txtLote;
         private System.Windows.Forms.ComboBox cmbProveedor;
@@ -391,7 +497,34 @@
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnActualizar;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dgwListaActual;
+        private System.Windows.Forms.Panel pnlContenedorTitulo;
+        private System.Windows.Forms.Label lblTitulo;
+        private System.Windows.Forms.Panel LineaDivisora;
+        private System.Windows.Forms.Button btnDispensación;
+        private System.Windows.Forms.Button btnInventario;
+        private System.Windows.Forms.Panel PanelDetalles;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Panel PanelTabla;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Codigo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Presentacion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn StockActual;
+        private System.Windows.Forms.DataGridViewTextBoxColumn StockMin;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Estado;
+        private System.Windows.Forms.Button button2;
     }
 }
