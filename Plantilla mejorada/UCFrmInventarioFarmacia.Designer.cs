@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnVerStock = new System.Windows.Forms.Button();
             this.nudExitenciaActual = new System.Windows.Forms.NumericUpDown();
             this.nudExistenciaMinima = new System.Windows.Forms.NumericUpDown();
             this.dtpFechaVencimiento = new System.Windows.Forms.DateTimePicker();
@@ -39,12 +39,25 @@
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnActualizar = new System.Windows.Forms.Button();
             this.dgwListaActual = new System.Windows.Forms.DataGridView();
+            this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Presentacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.StockActual = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.StockMin = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Estado = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pnlContenedorTitulo = new System.Windows.Forms.Panel();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.LineaDivisora = new System.Windows.Forms.Panel();
             this.btnDispensación = new System.Windows.Forms.Button();
             this.btnInventario = new System.Windows.Forms.Button();
             this.PanelDetalles = new System.Windows.Forms.Panel();
+            this.btnLimpiar = new System.Windows.Forms.Button();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -52,21 +65,8 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
             this.PanelTabla = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Presentacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.StockActual = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.StockMin = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Estado = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.nudExitenciaActual)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudExistenciaMinima)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgwListaActual)).BeginInit();
@@ -75,16 +75,16 @@
             this.PanelTabla.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // btnVerStock
             // 
-            this.button1.BackColor = System.Drawing.Color.Gold;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(405, 9);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(82, 26);
-            this.button1.TabIndex = 25;
-            this.button1.Text = "Ver stock bajo";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnVerStock.BackColor = System.Drawing.Color.Gold;
+            this.btnVerStock.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerStock.Location = new System.Drawing.Point(405, 9);
+            this.btnVerStock.Name = "btnVerStock";
+            this.btnVerStock.Size = new System.Drawing.Size(82, 26);
+            this.btnVerStock.TabIndex = 25;
+            this.btnVerStock.Text = "Ver stock bajo";
+            this.btnVerStock.UseVisualStyleBackColor = false;
             // 
             // nudExitenciaActual
             // 
@@ -180,6 +180,42 @@
             this.dgwListaActual.Size = new System.Drawing.Size(467, 377);
             this.dgwListaActual.TabIndex = 26;
             // 
+            // Codigo
+            // 
+            this.Codigo.HeaderText = "Código";
+            this.Codigo.Name = "Codigo";
+            this.Codigo.Width = 80;
+            // 
+            // Nombre
+            // 
+            this.Nombre.HeaderText = "Nombre";
+            this.Nombre.Name = "Nombre";
+            this.Nombre.Width = 110;
+            // 
+            // Presentacion
+            // 
+            this.Presentacion.HeaderText = "Presentación";
+            this.Presentacion.Name = "Presentacion";
+            this.Presentacion.Width = 90;
+            // 
+            // StockActual
+            // 
+            this.StockActual.HeaderText = "Stock actual";
+            this.StockActual.Name = "StockActual";
+            this.StockActual.Width = 42;
+            // 
+            // StockMin
+            // 
+            this.StockMin.HeaderText = "Stock minimo";
+            this.StockMin.Name = "StockMin";
+            this.StockMin.Width = 42;
+            // 
+            // Estado
+            // 
+            this.Estado.HeaderText = "Estado";
+            this.Estado.Name = "Estado";
+            this.Estado.Width = 60;
+            // 
             // pnlContenedorTitulo
             // 
             this.pnlContenedorTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(39)))), ((int)(((byte)(89)))));
@@ -221,6 +257,7 @@
             this.btnDispensación.TabIndex = 29;
             this.btnDispensación.Text = "Dispensación";
             this.btnDispensación.UseVisualStyleBackColor = false;
+            this.btnDispensación.Click += new System.EventHandler(this.btnDispensación_Click);
             // 
             // btnInventario
             // 
@@ -235,11 +272,12 @@
             this.btnInventario.TabIndex = 30;
             this.btnInventario.Text = "Inventario";
             this.btnInventario.UseVisualStyleBackColor = false;
+            this.btnInventario.Click += new System.EventHandler(this.btnInventario_Click);
             // 
             // PanelDetalles
             // 
             this.PanelDetalles.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(200)))), ((int)(((byte)(242)))));
-            this.PanelDetalles.Controls.Add(this.button2);
+            this.PanelDetalles.Controls.Add(this.btnLimpiar);
             this.PanelDetalles.Controls.Add(this.label11);
             this.PanelDetalles.Controls.Add(this.label10);
             this.PanelDetalles.Controls.Add(this.label9);
@@ -264,6 +302,75 @@
             this.PanelDetalles.Name = "PanelDetalles";
             this.PanelDetalles.Size = new System.Drawing.Size(319, 490);
             this.PanelDetalles.TabIndex = 31;
+            // 
+            // btnLimpiar
+            // 
+            this.btnLimpiar.BackColor = System.Drawing.Color.Silver;
+            this.btnLimpiar.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpiar.Location = new System.Drawing.Point(174, 445);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(94, 27);
+            this.btnLimpiar.TabIndex = 23;
+            this.btnLimpiar.Text = "Limpiar";
+            this.btnLimpiar.UseVisualStyleBackColor = false;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(171, 378);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(52, 17);
+            this.label11.TabIndex = 21;
+            this.label11.Text = "Estado:";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(17, 378);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(75, 17);
+            this.label10.TabIndex = 20;
+            this.label10.Text = "Proveedor:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(22, 322);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(37, 17);
+            this.label9.TabIndex = 19;
+            this.label9.Text = "Lote:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(17, 266);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(143, 17);
+            this.label8.TabIndex = 17;
+            this.label8.Text = "Fecha de vencimiento:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(174, 210);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(94, 17);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "Stock minimo:";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(20, 176);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(277, 21);
+            this.comboBox2.TabIndex = 9;
             // 
             // label5
             // 
@@ -332,70 +439,12 @@
             this.label6.TabIndex = 0;
             this.label6.Text = "Detalles del medicamento:";
             // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(20, 176);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(277, 21);
-            this.comboBox2.TabIndex = 9;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(174, 210);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(94, 17);
-            this.label7.TabIndex = 15;
-            this.label7.Text = "Stock minimo:";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(17, 266);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(143, 17);
-            this.label8.TabIndex = 17;
-            this.label8.Text = "Fecha de vencimiento:";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(22, 322);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(37, 17);
-            this.label9.TabIndex = 19;
-            this.label9.Text = "Lote:";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(17, 378);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(75, 17);
-            this.label10.TabIndex = 20;
-            this.label10.Text = "Proveedor:";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(171, 378);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(52, 17);
-            this.label11.TabIndex = 21;
-            this.label11.Text = "Estado:";
-            // 
             // PanelTabla
             // 
             this.PanelTabla.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(200)))), ((int)(((byte)(242)))));
             this.PanelTabla.Controls.Add(this.label1);
             this.PanelTabla.Controls.Add(this.dgwListaActual);
-            this.PanelTabla.Controls.Add(this.button1);
+            this.PanelTabla.Controls.Add(this.btnVerStock);
             this.PanelTabla.Location = new System.Drawing.Point(344, 107);
             this.PanelTabla.Name = "PanelTabla";
             this.PanelTabla.Size = new System.Drawing.Size(506, 442);
@@ -410,53 +459,6 @@
             this.label1.Size = new System.Drawing.Size(151, 21);
             this.label1.TabIndex = 0;
             this.label1.Text = "Lista de inventario";
-            // 
-            // Codigo
-            // 
-            this.Codigo.HeaderText = "Código";
-            this.Codigo.Name = "Codigo";
-            this.Codigo.Width = 80;
-            // 
-            // Nombre
-            // 
-            this.Nombre.HeaderText = "Nombre";
-            this.Nombre.Name = "Nombre";
-            this.Nombre.Width = 110;
-            // 
-            // Presentacion
-            // 
-            this.Presentacion.HeaderText = "Presentación";
-            this.Presentacion.Name = "Presentacion";
-            this.Presentacion.Width = 90;
-            // 
-            // StockActual
-            // 
-            this.StockActual.HeaderText = "Stock actual";
-            this.StockActual.Name = "StockActual";
-            this.StockActual.Width = 42;
-            // 
-            // StockMin
-            // 
-            this.StockMin.HeaderText = "Stock minimo";
-            this.StockMin.Name = "StockMin";
-            this.StockMin.Width = 42;
-            // 
-            // Estado
-            // 
-            this.Estado.HeaderText = "Estado";
-            this.Estado.Name = "Estado";
-            this.Estado.Width = 60;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Silver;
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(174, 445);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(94, 27);
-            this.button2.TabIndex = 23;
-            this.button2.Text = "Limpiar";
-            this.button2.UseVisualStyleBackColor = false;
             // 
             // UCFrmInventarioFarmacia
             // 
@@ -496,7 +498,7 @@
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnActualizar;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnVerStock;
         private System.Windows.Forms.DataGridView dgwListaActual;
         private System.Windows.Forms.Panel pnlContenedorTitulo;
         private System.Windows.Forms.Label lblTitulo;
@@ -525,6 +527,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn StockActual;
         private System.Windows.Forms.DataGridViewTextBoxColumn StockMin;
         private System.Windows.Forms.DataGridViewTextBoxColumn Estado;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnLimpiar;
     }
 }

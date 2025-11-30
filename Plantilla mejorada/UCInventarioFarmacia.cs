@@ -14,15 +14,15 @@ namespace Borrador
         private Button btnDispensación;
         private Panel LineaDivisora;
         private Panel PanelDetalles;
-        private Label label1;
-        private Label label2;
-        private TextBox textBox1;
-        private Label label3;
-        private ComboBox comboBox1;
-        private Label label4;
-        private TextBox textBox2;
-        private Label label5;
-        private TextBox textBox3;
+        private Label lblTitulo2;
+        private Label lblPaciente;
+        private TextBox txtNumeroRecetas;
+        private Label lblNumeroRecetas;
+        private ComboBox cmbPacientes;
+        private Label lblMedicos;
+        private TextBox txtMedicos;
+        private Label lblFechasEntrega;
+        private TextBox txtFechas;
         private Panel PanelTabla;
         private Label label10;
         private DataGridView ListaMedicamentos;
@@ -32,13 +32,13 @@ namespace Borrador
         private DataGridViewTextBoxColumn CantidadPrescrita;
         private DataGridViewTextBoxColumn CantidadEntregar;
         private Panel PanelPago;
-        private ComboBox comboBox2;
-        private Label label9;
-        private Label label11;
+        private ComboBox cmbMetodoPago;
+        private Label lblMetodoPago;
+        private Label lblTitulo1;
         private Button button2;
         private Button button1;
-        private Label label6;
-        private TextBox textBox4;
+        private Label lblObservacion;
+        private TextBox txbObservaciones;
         private Panel pnlContenedorTitulo;
 
         private void InitializeComponent()
@@ -49,15 +49,15 @@ namespace Borrador
             this.btnDispensación = new System.Windows.Forms.Button();
             this.LineaDivisora = new System.Windows.Forms.Panel();
             this.PanelDetalles = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblFechasEntrega = new System.Windows.Forms.Label();
+            this.txtFechas = new System.Windows.Forms.TextBox();
+            this.txtMedicos = new System.Windows.Forms.TextBox();
+            this.lblMedicos = new System.Windows.Forms.Label();
+            this.txtNumeroRecetas = new System.Windows.Forms.TextBox();
+            this.lblNumeroRecetas = new System.Windows.Forms.Label();
+            this.cmbPacientes = new System.Windows.Forms.ComboBox();
+            this.lblPaciente = new System.Windows.Forms.Label();
+            this.lblTitulo2 = new System.Windows.Forms.Label();
             this.PanelTabla = new System.Windows.Forms.Panel();
             this.ListaMedicamentos = new System.Windows.Forms.DataGridView();
             this.Medicamentos = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -69,11 +69,11 @@ namespace Borrador
             this.PanelPago = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
+            this.lblObservacion = new System.Windows.Forms.Label();
+            this.txbObservaciones = new System.Windows.Forms.TextBox();
+            this.cmbMetodoPago = new System.Windows.Forms.ComboBox();
+            this.lblMetodoPago = new System.Windows.Forms.Label();
+            this.lblTitulo1 = new System.Windows.Forms.Label();
             this.pnlContenedorTitulo.SuspendLayout();
             this.PanelDetalles.SuspendLayout();
             this.PanelTabla.SuspendLayout();
@@ -129,6 +129,7 @@ namespace Borrador
             this.btnDispensación.TabIndex = 3;
             this.btnDispensación.Text = "Dispensación";
             this.btnDispensación.UseVisualStyleBackColor = false;
+            this.btnDispensación.Click += new System.EventHandler(this.btnDispensación_Click);
             // 
             // LineaDivisora
             // 
@@ -141,103 +142,103 @@ namespace Borrador
             // PanelDetalles
             // 
             this.PanelDetalles.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(200)))), ((int)(((byte)(242)))));
-            this.PanelDetalles.Controls.Add(this.label5);
-            this.PanelDetalles.Controls.Add(this.textBox3);
-            this.PanelDetalles.Controls.Add(this.textBox2);
-            this.PanelDetalles.Controls.Add(this.label4);
-            this.PanelDetalles.Controls.Add(this.textBox1);
-            this.PanelDetalles.Controls.Add(this.label3);
-            this.PanelDetalles.Controls.Add(this.comboBox1);
-            this.PanelDetalles.Controls.Add(this.label2);
-            this.PanelDetalles.Controls.Add(this.label1);
+            this.PanelDetalles.Controls.Add(this.lblFechasEntrega);
+            this.PanelDetalles.Controls.Add(this.txtFechas);
+            this.PanelDetalles.Controls.Add(this.txtMedicos);
+            this.PanelDetalles.Controls.Add(this.lblMedicos);
+            this.PanelDetalles.Controls.Add(this.txtNumeroRecetas);
+            this.PanelDetalles.Controls.Add(this.lblNumeroRecetas);
+            this.PanelDetalles.Controls.Add(this.cmbPacientes);
+            this.PanelDetalles.Controls.Add(this.lblPaciente);
+            this.PanelDetalles.Controls.Add(this.lblTitulo2);
             this.PanelDetalles.Location = new System.Drawing.Point(33, 115);
             this.PanelDetalles.Name = "PanelDetalles";
             this.PanelDetalles.Size = new System.Drawing.Size(359, 272);
             this.PanelDetalles.TabIndex = 5;
             // 
-            // label5
+            // lblFechasEntrega
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(17, 210);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(106, 17);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Fecha de receta:";
+            this.lblFechasEntrega.AutoSize = true;
+            this.lblFechasEntrega.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFechasEntrega.Location = new System.Drawing.Point(17, 210);
+            this.lblFechasEntrega.Name = "lblFechasEntrega";
+            this.lblFechasEntrega.Size = new System.Drawing.Size(106, 17);
+            this.lblFechasEntrega.TabIndex = 8;
+            this.lblFechasEntrega.Text = "Fecha de receta:";
             // 
-            // textBox3
+            // txtFechas
             // 
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.Enabled = false;
-            this.textBox3.Location = new System.Drawing.Point(20, 232);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(277, 20);
-            this.textBox3.TabIndex = 7;
+            this.txtFechas.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtFechas.Enabled = false;
+            this.txtFechas.Location = new System.Drawing.Point(20, 232);
+            this.txtFechas.Name = "txtFechas";
+            this.txtFechas.Size = new System.Drawing.Size(277, 20);
+            this.txtFechas.TabIndex = 7;
             // 
-            // textBox2
+            // txtMedicos
             // 
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Enabled = false;
-            this.textBox2.Location = new System.Drawing.Point(20, 120);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(277, 20);
-            this.textBox2.TabIndex = 6;
+            this.txtMedicos.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtMedicos.Enabled = false;
+            this.txtMedicos.Location = new System.Drawing.Point(20, 120);
+            this.txtMedicos.Name = "txtMedicos";
+            this.txtMedicos.Size = new System.Drawing.Size(277, 20);
+            this.txtMedicos.TabIndex = 6;
             // 
-            // label4
+            // lblMedicos
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(17, 98);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(141, 17);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Medico que Prescribe:";
+            this.lblMedicos.AutoSize = true;
+            this.lblMedicos.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMedicos.Location = new System.Drawing.Point(17, 98);
+            this.lblMedicos.Name = "lblMedicos";
+            this.lblMedicos.Size = new System.Drawing.Size(141, 17);
+            this.lblMedicos.TabIndex = 5;
+            this.lblMedicos.Text = "Medico que Prescribe:";
             // 
-            // textBox1
+            // txtNumeroRecetas
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Location = new System.Drawing.Point(20, 176);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(277, 20);
-            this.textBox1.TabIndex = 4;
+            this.txtNumeroRecetas.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtNumeroRecetas.Location = new System.Drawing.Point(20, 176);
+            this.txtNumeroRecetas.Name = "txtNumeroRecetas";
+            this.txtNumeroRecetas.Size = new System.Drawing.Size(277, 20);
+            this.txtNumeroRecetas.TabIndex = 4;
             // 
-            // label3
+            // lblNumeroRecetas
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(17, 154);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(121, 17);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Numero de receta:";
+            this.lblNumeroRecetas.AutoSize = true;
+            this.lblNumeroRecetas.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumeroRecetas.Location = new System.Drawing.Point(17, 154);
+            this.lblNumeroRecetas.Name = "lblNumeroRecetas";
+            this.lblNumeroRecetas.Size = new System.Drawing.Size(121, 17);
+            this.lblNumeroRecetas.TabIndex = 3;
+            this.lblNumeroRecetas.Text = "Numero de receta:";
             // 
-            // comboBox1
+            // cmbPacientes
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(20, 64);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(277, 21);
-            this.comboBox1.TabIndex = 2;
+            this.cmbPacientes.FormattingEnabled = true;
+            this.cmbPacientes.Location = new System.Drawing.Point(20, 64);
+            this.cmbPacientes.Name = "cmbPacientes";
+            this.cmbPacientes.Size = new System.Drawing.Size(277, 21);
+            this.cmbPacientes.TabIndex = 2;
             // 
-            // label2
+            // lblPaciente
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(17, 42);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 17);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Paciente:";
+            this.lblPaciente.AutoSize = true;
+            this.lblPaciente.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPaciente.Location = new System.Drawing.Point(17, 42);
+            this.lblPaciente.Name = "lblPaciente";
+            this.lblPaciente.Size = new System.Drawing.Size(62, 17);
+            this.lblPaciente.TabIndex = 1;
+            this.lblPaciente.Text = "Paciente:";
             // 
-            // label1
+            // lblTitulo2
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(16, 12);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(234, 21);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Detalles del paciente y receta";
+            this.lblTitulo2.AutoSize = true;
+            this.lblTitulo2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo2.Location = new System.Drawing.Point(16, 12);
+            this.lblTitulo2.Name = "lblTitulo2";
+            this.lblTitulo2.Size = new System.Drawing.Size(234, 21);
+            this.lblTitulo2.TabIndex = 0;
+            this.lblTitulo2.Text = "Detalles del paciente y receta";
             // 
             // PanelTabla
             // 
@@ -309,11 +310,11 @@ namespace Borrador
             this.PanelPago.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(200)))), ((int)(((byte)(242)))));
             this.PanelPago.Controls.Add(this.button2);
             this.PanelPago.Controls.Add(this.button1);
-            this.PanelPago.Controls.Add(this.label6);
-            this.PanelPago.Controls.Add(this.textBox4);
-            this.PanelPago.Controls.Add(this.comboBox2);
-            this.PanelPago.Controls.Add(this.label9);
-            this.PanelPago.Controls.Add(this.label11);
+            this.PanelPago.Controls.Add(this.lblObservacion);
+            this.PanelPago.Controls.Add(this.txbObservaciones);
+            this.PanelPago.Controls.Add(this.cmbMetodoPago);
+            this.PanelPago.Controls.Add(this.lblMetodoPago);
+            this.PanelPago.Controls.Add(this.lblTitulo1);
             this.PanelPago.Location = new System.Drawing.Point(434, 115);
             this.PanelPago.Name = "PanelPago";
             this.PanelPago.Size = new System.Drawing.Size(387, 272);
@@ -343,52 +344,52 @@ namespace Borrador
             this.button1.Text = "ImprimirComprobante";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // label6
+            // lblObservacion
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(17, 98);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(161, 17);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Observacion de farmacia:";
+            this.lblObservacion.AutoSize = true;
+            this.lblObservacion.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblObservacion.Location = new System.Drawing.Point(17, 98);
+            this.lblObservacion.Name = "lblObservacion";
+            this.lblObservacion.Size = new System.Drawing.Size(161, 17);
+            this.lblObservacion.TabIndex = 10;
+            this.lblObservacion.Text = "Observacion de farmacia:";
             // 
-            // textBox4
+            // txbObservaciones
             // 
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox4.Location = new System.Drawing.Point(20, 118);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(343, 96);
-            this.textBox4.TabIndex = 9;
+            this.txbObservaciones.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txbObservaciones.Location = new System.Drawing.Point(20, 118);
+            this.txbObservaciones.Multiline = true;
+            this.txbObservaciones.Name = "txbObservaciones";
+            this.txbObservaciones.Size = new System.Drawing.Size(343, 96);
+            this.txbObservaciones.TabIndex = 9;
             // 
-            // comboBox2
+            // cmbMetodoPago
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(20, 64);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(343, 21);
-            this.comboBox2.TabIndex = 2;
+            this.cmbMetodoPago.FormattingEnabled = true;
+            this.cmbMetodoPago.Location = new System.Drawing.Point(20, 64);
+            this.cmbMetodoPago.Name = "cmbMetodoPago";
+            this.cmbMetodoPago.Size = new System.Drawing.Size(343, 21);
+            this.cmbMetodoPago.TabIndex = 2;
             // 
-            // label9
+            // lblMetodoPago
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(17, 42);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(113, 17);
-            this.label9.TabIndex = 1;
-            this.label9.Text = "Metodo de pago:";
+            this.lblMetodoPago.AutoSize = true;
+            this.lblMetodoPago.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMetodoPago.Location = new System.Drawing.Point(17, 42);
+            this.lblMetodoPago.Name = "lblMetodoPago";
+            this.lblMetodoPago.Size = new System.Drawing.Size(113, 17);
+            this.lblMetodoPago.TabIndex = 1;
+            this.lblMetodoPago.Text = "Metodo de pago:";
             // 
-            // label11
+            // lblTitulo1
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(16, 12);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(108, 21);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "Pago y notas";
+            this.lblTitulo1.AutoSize = true;
+            this.lblTitulo1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo1.Location = new System.Drawing.Point(16, 12);
+            this.lblTitulo1.Name = "lblTitulo1";
+            this.lblTitulo1.Size = new System.Drawing.Size(108, 21);
+            this.lblTitulo1.TabIndex = 0;
+            this.lblTitulo1.Text = "Pago y notas";
             // 
             // UCInventarioFarmacia
             // 
@@ -415,12 +416,41 @@ namespace Borrador
 
         }
 
+        // Realizar aqui dentro todo el codigo de su interfaz
+
+        //Pantalla Principal de inventario UCInventario Farmacia
         private void btnInventario_Click(object sender, EventArgs e)
         {
+            // Limpiar panel antes de cargar UCInventarioFarmacia
+            //pnlContent.Controls.Clear(); -- Error de conexion PanelContenedor
 
+            // Crear instancia del UserControl
+            UCInventarioFarmacia ucInventario = new UCInventarioFarmacia();
+
+            // Ajustar tamaño y dock para que llene el panel
+            ucInventario.Dock = DockStyle.Fill;
+
+            // Agregar User control al principal
+            //pnlContent.Controls.Add(ucInventario); --- Marca Error 
         }
 
-        // Realizar aqui dentro todo el codigo de su interfaz
+        //Boton que te redirige a la Ventana de UCFrmInvetarioFarmacia
+        private void btnDispensación_Click(object sender, EventArgs e)
+        {
+            // Limpiar panel antes de cargar UCInventarioFarmacia
+            //pnlContent.Controls.Clear(); -- Error de conexion PanelContenedor
+
+            // Crear instancia del UserControl
+            UCFrmInventarioFarmacia ucInventario = new UCFrmInventarioFarmacia();
+
+            // Ajustar tamaño y dock para que llene el panel
+            ucInventario.Dock = DockStyle.Fill;
+
+            // Agregar User control al principal
+            //pnlContent.Controls.Add(ucInventario); --- Marca Error 
+        }
+
+
 
     }
 }
