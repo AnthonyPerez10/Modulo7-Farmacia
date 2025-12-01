@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Modulo7-Farmacia\\Plantilla mejorada\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|c:\\users\\flia perez\\desktop\\u.t.p\\4\u00B0 semestre 2025\\des. soft. iv\\proyecto semestral git\\modulo7-farmacia\\plantilla mejorada\\modulo7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|solutionrelative:modulo7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|c:\\users\\flia perez\\desktop\\u.t.p\\4\u00B0 semestre 2025\\des. soft. iv\\proyecto semestral git\\modulo7-farmacia\\plantilla mejorada\\modulo7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|solutionrelative:modulo7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|c:\\users\\flia perez\\desktop\\u.t.p\\4\u00B0 semestre 2025\\des. soft. iv\\proyecto semestral git\\modulo7-farmacia\\plantilla mejorada\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Modulo7-Farmacia\\Plantilla mejorada\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Modulo7-Farmacia\\Plantilla mejorada\\ucinventariofarmacia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|solutionrelative:ucinventariofarmacia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Modulo7-Farmacia\\Plantilla mejorada\\modulo7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|solutionrelative:modulo7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|c:\\users\\flia perez\\desktop\\u.t.p\\4\u00B0 semestre 2025\\des. soft. iv\\proyecto semestral git\\modulo7-farmacia\\plantilla mejorada\\ucinventariofarmacia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|solutionrelative:ucinventariofarmacia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|c:\\users\\flia perez\\desktop\\u.t.p\\4\u00B0 semestre 2025\\des. soft. iv\\proyecto semestral git\\modulo7-farmacia\\plantilla mejorada\\modulo7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|solutionrelative:modulo7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Modulo7-Farmacia\\Plantilla mejorada\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 271,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MainForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Modulo7-Farmacia\\Plantilla mejorada\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
@@ -54,13 +46,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Modulo7.cs",
               "DocumentMoniker": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Modulo7-Farmacia\\Plantilla mejorada\\Modulo7.cs",
               "RelativeDocumentMoniker": "Modulo7.cs",
               "ToolTip": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Modulo7-Farmacia\\Plantilla mejorada\\Modulo7.cs",
               "RelativeToolTip": "Modulo7.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-01T16:07:20.505Z",
               "EditorCaption": ""
@@ -79,19 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UCInventarioFarmacia.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Modulo7-Farmacia\\Plantilla mejorada\\UCInventarioFarmacia.cs",
-              "RelativeDocumentMoniker": "UCInventarioFarmacia.cs",
-              "ToolTip": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Modulo7-Farmacia\\Plantilla mejorada\\UCInventarioFarmacia.cs [Dise\u00F1o]",
-              "RelativeToolTip": "UCInventarioFarmacia.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T15:56:37.411Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Modulo7-Farmacia\\Plantilla mejorada\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
@@ -100,19 +80,6 @@
               "ViewState": "AgIAAFsAAAAAAAAAAAAAAF0AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-01T00:27:31.519Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UCInventarioFarmacia.cs",
-              "DocumentMoniker": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Modulo7-Farmacia\\Plantilla mejorada\\UCInventarioFarmacia.cs",
-              "RelativeDocumentMoniker": "UCInventarioFarmacia.cs",
-              "ToolTip": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Modulo7-Farmacia\\Plantilla mejorada\\UCInventarioFarmacia.cs",
-              "RelativeToolTip": "UCInventarioFarmacia.cs",
-              "ViewState": "AgIAAG0BAAAAAAAAAAAqwHsBAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T23:45:55.49Z",
               "EditorCaption": ""
             }
           ]
