@@ -34,3 +34,4 @@ C:\Users\FLIA PEREZ\Desktop\U.T.P\4° SEMESTRE 2025\DES. SOFT. IV\Proyecto Semes
 C:\Users\FLIA PEREZ\Desktop\U.T.P\4° SEMESTRE 2025\DES. SOFT. IV\Proyecto Semestral git\Modulo7-Farmacia\Plantilla mejorada\obj\Debug\Borrador.csproj.CoreCompileInputs.cache
 C:\Users\FLIA PEREZ\Desktop\U.T.P\4° SEMESTRE 2025\DES. SOFT. IV\Proyecto Semestral git\Modulo7-Farmacia\Plantilla mejorada\obj\Debug\Borrador.exe
 C:\Users\FLIA PEREZ\Desktop\U.T.P\4° SEMESTRE 2025\DES. SOFT. IV\Proyecto Semestral git\Modulo7-Farmacia\Plantilla mejorada\obj\Debug\Borrador.pdb
+C:\Users\FLIA PEREZ\Desktop\U.T.P\4° SEMESTRE 2025\DES. SOFT. IV\Proyecto Semestral git\Modulo7-Farmacia\Plantilla mejorada\obj\Debug\Borrador.Modulo7.resources

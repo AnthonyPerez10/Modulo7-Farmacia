@@ -91,7 +91,7 @@ namespace Borrador
 
                         case "btnFarmacia":
                             //Modulo 7
-                            button.Tag = typeof(UCInventarioFarmacia);
+                            button.Tag = typeof(Modulo7);
                            // button.Image = Properties.Resources.icon_farmacia;
                             break;
 
