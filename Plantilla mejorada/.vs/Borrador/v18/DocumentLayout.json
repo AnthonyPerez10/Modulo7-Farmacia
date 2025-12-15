@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Modulo7-Farmacia\\Plantilla mejorada\\",
+  "WorkspaceRootPath": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Sistema-de-Informaci-n-M-dico-Integrado\\Plantilla mejorada\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Modulo7-Farmacia\\Plantilla mejorada\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|c:\\users\\flia perez\\desktop\\u.t.p\\4\u00B0 semestre 2025\\des. soft. iv\\proyecto semestral git\\sistema-de-informaci-n-m-dico-integrado\\plantilla mejorada\\modulo4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|solutionrelative:modulo4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Modulo7-Farmacia\\Plantilla mejorada\\modulo7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|solutionrelative:modulo7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Sistema-de-Informaci-n-M-dico-Integrado\\Plantilla mejorada\\modulo4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|solutionrelative:modulo4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|c:\\users\\flia perez\\desktop\\u.t.p\\4\u00B0 semestre 2025\\des. soft. iv\\proyecto semestral git\\modulo7-farmacia\\plantilla mejorada\\modulo7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|solutionrelative:modulo7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Sistema-de-Informaci-n-M-dico-Integrado\\Plantilla mejorada\\modulo4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|solutionrelative:modulo4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Modulo7-Farmacia\\Plantilla mejorada\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Sistema-de-Informaci-n-M-dico-Integrado\\Plantilla mejorada\\modulo2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|solutionrelative:modulo2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,61 +26,116 @@
       "DocumentGroups": [
         {
           "DockedWidth": 271,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Modulo7-Farmacia\\Plantilla mejorada\\MainForm.cs",
-              "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Modulo7-Farmacia\\Plantilla mejorada\\MainForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "MainForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T16:20:18.392Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Modulo7.cs",
-              "DocumentMoniker": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Modulo7-Farmacia\\Plantilla mejorada\\Modulo7.cs",
-              "RelativeDocumentMoniker": "Modulo7.cs",
-              "ToolTip": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Modulo7-Farmacia\\Plantilla mejorada\\Modulo7.cs",
-              "RelativeToolTip": "Modulo7.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T16:07:20.505Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Modulo7.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Modulo7-Farmacia\\Plantilla mejorada\\Modulo7.cs",
-              "RelativeDocumentMoniker": "Modulo7.cs",
-              "ToolTip": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Modulo7-Farmacia\\Plantilla mejorada\\Modulo7.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Modulo7.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T16:04:09.826Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "Title": "Modulo4.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Sistema-de-Informaci-n-M-dico-Integrado\\Plantilla mejorada\\Modulo4.Designer.cs",
+              "RelativeDocumentMoniker": "Modulo4.Designer.cs",
+              "ToolTip": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Sistema-de-Informaci-n-M-dico-Integrado\\Plantilla mejorada\\Modulo4.Designer.cs",
+              "RelativeToolTip": "Modulo4.Designer.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAiwCUDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2025-12-15T19:55:17.689Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Modulo7-Farmacia\\Plantilla mejorada\\MainForm.cs",
-              "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Modulo7-Farmacia\\Plantilla mejorada\\MainForm.cs",
-              "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAAAF0AAAA3AAAAAAAAAA==",
+              "Title": "Modulo4.cs",
+              "DocumentMoniker": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Sistema-de-Informaci-n-M-dico-Integrado\\Plantilla mejorada\\Modulo4.cs",
+              "RelativeDocumentMoniker": "Modulo4.cs",
+              "ToolTip": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Sistema-de-Informaci-n-M-dico-Integrado\\Plantilla mejorada\\Modulo4.cs",
+              "RelativeToolTip": "Modulo4.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAADwvwkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T00:27:31.519Z",
+              "WhenOpened": "2025-12-15T19:55:18.085Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Modulo4.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Sistema-de-Informaci-n-M-dico-Integrado\\Plantilla mejorada\\Modulo4.cs",
+              "RelativeDocumentMoniker": "Modulo4.cs",
+              "ToolTip": "C:\\Users\\dresq\\OneDrive\\Escritorio\\Proyecto C#\\Sistema-de-Informaci-n-M-dico-Integrado\\Plantilla mejorada\\Modulo4.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\dresq\\OneDrive\\Escritorio\\Proyecto C#\\Sistema-de-Informaci-n-M-dico-Integrado\\Plantilla mejorada\\Modulo4.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2025-12-15T19:55:18.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Modulo2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Proyecto Semestral git\\Sistema-de-Informaci-n-M-dico-Integrado\\Plantilla mejorada\\Modulo2.cs",
+              "RelativeDocumentMoniker": "Modulo2.cs",
+              "ToolTip": "C:\\Users\\dresq\\OneDrive\\Escritorio\\Proyecto C#\\Sistema-de-Informaci-n-M-dico-Integrado\\Plantilla mejorada\\Modulo2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\dresq\\OneDrive\\Escritorio\\Proyecto C#\\Sistema-de-Informaci-n-M-dico-Integrado\\Plantilla mejorada\\Modulo2.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2025-12-15T19:55:18.709Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 129,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }

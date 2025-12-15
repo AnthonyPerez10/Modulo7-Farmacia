@@ -441,10 +441,10 @@ namespace Borrador
             //pnlContent.Controls.Clear(); -- Error de conexion PanelContenedor
 
             // Crear instancia del UserControl
-            UCFrmInventarioFarmacia ucInventario = new UCFrmInventarioFarmacia();
+            //UCFrmInventarioFarmacia ucInventario = new UCFrmInventarioFarmacia();
 
             // Ajustar tamaño y dock para que llene el panel
-            ucInventario.Dock = DockStyle.Fill;
+            //ucInventario.Dock = DockStyle.Fill;
 
             // Agregar User control al principal
             //pnlContent.Controls.Add(ucInventario); --- Marca Error 

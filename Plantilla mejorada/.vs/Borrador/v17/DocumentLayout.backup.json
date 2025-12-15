@@ -1,30 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Adalberto\\Documents\\Repos\\Modulo7-Farmacia\\Plantilla mejorada\\",
+  "WorkspaceRootPath": "C:\\Users\\dresq\\OneDrive\\Escritorio\\Proyecto C#\\Sistema-de-Informaci-n-M-dico-Integrado\\Plantilla mejorada\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|c:\\users\\adalberto\\documents\\repos\\modulo7-farmacia\\plantilla mejorada\\ucinventariofarmacia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|solutionrelative:ucinventariofarmacia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|c:\\users\\dresq\\onedrive\\escritorio\\proyecto c#\\sistema-de-informaci-n-m-dico-integrado\\plantilla mejorada\\modulo4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|solutionrelative:modulo4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|c:\\users\\adalberto\\documents\\repos\\modulo7-farmacia\\plantilla mejorada\\ucfrminventariofarmacia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|solutionrelative:ucfrminventariofarmacia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|c:\\users\\dresq\\onedrive\\escritorio\\proyecto c#\\sistema-de-informaci-n-m-dico-integrado\\plantilla mejorada\\modulo4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|solutionrelative:modulo4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|c:\\users\\adalberto\\documents\\repos\\modulo7-farmacia\\plantilla mejorada\\ucinventariofarmacia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|solutionrelative:ucinventariofarmacia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|c:\\users\\dresq\\onedrive\\escritorio\\proyecto c#\\sistema-de-informaci-n-m-dico-integrado\\plantilla mejorada\\modulo4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|solutionrelative:modulo4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|c:\\users\\adalberto\\documents\\repos\\modulo7-farmacia\\plantilla mejorada\\ucfrminventariofarmacia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|solutionrelative:ucfrminventariofarmacia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|C:\\Users\\Adalberto\\Documents\\Repos\\Modulo7-Farmacia\\Plantilla mejorada\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|C:\\Users\\Adalberto\\Documents\\Repos\\Modulo7-Farmacia\\Plantilla mejorada\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|c:\\users\\dresq\\onedrive\\escritorio\\proyecto c#\\sistema-de-informaci-n-m-dico-integrado\\plantilla mejorada\\modulo2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9994576B-278D-4028-92BD-EE76B6D65D49}|Borrador.csproj|solutionrelative:modulo2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,27 +26,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 271,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 13,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
@@ -67,91 +47,98 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Modulo4.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\dresq\\OneDrive\\Escritorio\\Proyecto C#\\Sistema-de-Informaci-n-M-dico-Integrado\\Plantilla mejorada\\Modulo4.Designer.cs",
+              "RelativeDocumentMoniker": "Modulo4.Designer.cs",
+              "ToolTip": "C:\\Users\\dresq\\OneDrive\\Escritorio\\Proyecto C#\\Sistema-de-Informaci-n-M-dico-Integrado\\Plantilla mejorada\\Modulo4.Designer.cs",
+              "RelativeToolTip": "Modulo4.Designer.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAiwCUDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T20:22:38.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Modulo4.cs",
+              "DocumentMoniker": "C:\\Users\\dresq\\OneDrive\\Escritorio\\Proyecto C#\\Sistema-de-Informaci-n-M-dico-Integrado\\Plantilla mejorada\\Modulo4.cs",
+              "RelativeDocumentMoniker": "Modulo4.cs",
+              "ToolTip": "C:\\Users\\dresq\\OneDrive\\Escritorio\\Proyecto C#\\Sistema-de-Informaci-n-M-dico-Integrado\\Plantilla mejorada\\Modulo4.cs",
+              "RelativeToolTip": "Modulo4.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAADwvwkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T20:20:41.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Modulo4.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\dresq\\OneDrive\\Escritorio\\Proyecto C#\\Sistema-de-Informaci-n-M-dico-Integrado\\Plantilla mejorada\\Modulo4.cs",
+              "RelativeDocumentMoniker": "Modulo4.cs",
+              "ToolTip": "C:\\Users\\dresq\\OneDrive\\Escritorio\\Proyecto C#\\Sistema-de-Informaci-n-M-dico-Integrado\\Plantilla mejorada\\Modulo4.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Modulo4.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T20:20:38.417Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Modulo2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\dresq\\OneDrive\\Escritorio\\Proyecto C#\\Sistema-de-Informaci-n-M-dico-Integrado\\Plantilla mejorada\\Modulo2.cs",
+              "RelativeDocumentMoniker": "Modulo2.cs",
+              "ToolTip": "C:\\Users\\dresq\\OneDrive\\Escritorio\\Proyecto C#\\Sistema-de-Informaci-n-M-dico-Integrado\\Plantilla mejorada\\Modulo2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Modulo2.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T20:20:32.138Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         },
         {
           "DockedWidth": 129,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UCFrmInventarioFarmacia.cs",
-              "DocumentMoniker": "C:\\Users\\Adalberto\\Documents\\Repos\\Modulo7-Farmacia\\Plantilla mejorada\\UCFrmInventarioFarmacia.cs",
-              "RelativeDocumentMoniker": "UCFrmInventarioFarmacia.cs",
-              "ToolTip": "C:\\Users\\Adalberto\\Documents\\Repos\\Modulo7-Farmacia\\Plantilla mejorada\\UCFrmInventarioFarmacia.cs",
-              "RelativeToolTip": "UCFrmInventarioFarmacia.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAowAwAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T05:10:49.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UCFrmInventarioFarmacia.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Adalberto\\Documents\\Repos\\Modulo7-Farmacia\\Plantilla mejorada\\UCFrmInventarioFarmacia.cs",
-              "RelativeDocumentMoniker": "UCFrmInventarioFarmacia.cs",
-              "ToolTip": "C:\\Users\\Adalberto\\Documents\\Repos\\Modulo7-Farmacia\\Plantilla mejorada\\UCFrmInventarioFarmacia.cs [Dise\u00F1o]",
-              "RelativeToolTip": "UCFrmInventarioFarmacia.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T05:10:38.485Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UCInventarioFarmacia.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Adalberto\\Documents\\Repos\\Modulo7-Farmacia\\Plantilla mejorada\\UCInventarioFarmacia.cs",
-              "RelativeDocumentMoniker": "UCInventarioFarmacia.cs",
-              "ToolTip": "C:\\Users\\Adalberto\\Documents\\Repos\\Modulo7-Farmacia\\Plantilla mejorada\\UCInventarioFarmacia.cs [Dise\u00F1o]",
-              "RelativeToolTip": "UCInventarioFarmacia.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T03:49:17.123Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UCInventarioFarmacia.cs",
-              "DocumentMoniker": "C:\\Users\\Adalberto\\Documents\\Repos\\Modulo7-Farmacia\\Plantilla mejorada\\UCInventarioFarmacia.cs",
-              "RelativeDocumentMoniker": "UCInventarioFarmacia.cs",
-              "ToolTip": "C:\\Users\\Adalberto\\Documents\\Repos\\Modulo7-Farmacia\\Plantilla mejorada\\UCInventarioFarmacia.cs",
-              "RelativeToolTip": "UCInventarioFarmacia.cs",
-              "ViewState": "AgIAAJkBAAAAAAAAAAAgwKYBAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T03:49:39.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\Adalberto\\Documents\\Repos\\Modulo7-Farmacia\\Plantilla mejorada\\MainForm.cs",
-              "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "C:\\Users\\Adalberto\\Documents\\Repos\\Modulo7-Farmacia\\Plantilla mejorada\\MainForm.cs",
-              "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAewF0AAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T18:49:12.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Adalberto\\Documents\\Repos\\Modulo7-Farmacia\\Plantilla mejorada\\MainForm.cs",
-              "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "C:\\Users\\Adalberto\\Documents\\Repos\\Modulo7-Farmacia\\Plantilla mejorada\\MainForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "MainForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T18:48:58.775Z",
-              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
